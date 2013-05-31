@@ -1,0 +1,187 @@
+/************************************************************* 
+This style sheet is used to define the look of your resume.
+
+the first section is for the ID. I used an ID for each main 
+section of the resume. the second section is for the css classes.
+I have listed them alphabetically to make it easier for you to
+find them. This example is pretty plain by the way.
+***************************************************************/
+
+/* just changing the image on the template vs my example above  you would need both sets of rules 
+    so i will be checking to see if you read the documentation and delete the one you dont use :) */
+#resume p#myImage {
+	background-image: url("http://www.uvm.edu/~amessing/cs142/assignment/assign1/headshot.png");
+	width: 119px;
+	height: 169px;
+	float: right;
+	margin: 0 0 1em 1em;
+	background-repeat: no-repeat;
+}
+#coName {/* i did not set any style for this*/
+}
+#education {
+}
+#profExperience {
+	clear: both;
+}
+#experience {
+	clear: both;
+}
+#hcard-Alex-Messinger {
+	min-height: 170px;
+}
+#interests {
+}
+#name {
+	text-align: left;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-bottom: 0pt;
+	border-bottom: 1px solid #7F7C8D;
+	line-height: .9em;
+}
+body div {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 1em;
+}
+div#hcard-Alex-Messinger div {
+	padding: 0;
+}
+#resume {
+	margin: 0 auto;
+	font-size: 12pt;
+	width: 6.5in;
+	border: 3px solid #7F7C8D;
+	font-family: Arial, Helvetica, sans-serif;
+	background:url(http://www.uvm.edu/~amessing/cs142/assignment/assign1/bkgd.jpg);
+	background-attachment:fixed;
+}
+#references {
+}
+#workExamples {/* i did not set any style for this*/
+}
+/************************************************************* 
+Here are the various CSS classes that I have used. Several 
+classes have no style defined for them specfically and most 
+likly they were used for their microformat value.
+see: http://microformats.org.
+***************************************************************/
+.adr, .street-address, .email, .tel, .locality, .region, .postal-code, .country-name, .email {
+	text-align: right;
+	font-weight: normal;
+	font-size: 10pt;
+}
+.companyInfo {
+}
+.company {
+}
+.courses {
+	margin-top: 0pt;
+	display: block;
+	margin-left: 0em;
+	margin-bottom: 12pt;
+	border: 0px solid yellow;
+}
+.dates {
+	text-align: right;
+	font-weight: normal;
+	font-size: 12pt;
+	float: right;
+}
+.description {
+	font-size: 10pt;
+}
+.gpa {
+	display: block;
+	font-size: 12pt;
+}
+.int {
+	list-style-type: none;
+}
+.job {
+	display: block;
+}
+.jobtitle {
+	text-align: left;
+	font-style: italic;
+	font-size: 12pt;
+	display: block;
+}
+.location {
+	text-align: left;
+	font-weight: normal;
+	display: inline;
+}
+/*list of your major classes that you have taken */
+.major {
+	margin-top: 0pt;
+	margin-left: 1em;
+	width: 50%;
+}
+/* what degree you are getting */
+.MajorDegree {
+	display: block;
+	font-size: 12pt;
+}
+/* list of minor classes that you have taken */
+.minor {
+	margin-top: 0pt;
+	margin-left: 0em;
+	border: 0px solid green;
+	list-style-type: none;
+}
+/* your minor degree you are getting */
+.MinorDegree {
+	display: block;
+	font-size: 12pt;
+}
+.ref {
+	list-style-type: none;
+}
+.school {
+	display: block;
+	list-style-type: none;
+}
+a:link {
+	color:#7B3B07;
+}      /* unvisited link */
+a:visited {
+	color:#7B3B07;
+}  /* visited link */
+a:hover {
+	color:#7B3B07;
+	text-decoration:none;
+}  /* mouse over link */
+a:active {
+	color:#7B3B07;
+}  /* selected link */
+/************************************************************* 
+general element formats that i set
+***************************************************************/
+
+h2 {
+	text-align: left;
+	background-color: #7F7C8D;
+	font-weight: bold;
+	font-size: 14pt;
+	margin: 0;
+	padding: .2em;
+	color: #fff;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+p {
+	font-weight: normal;
+	font-size: 10pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 12pt;
+}
+li {
+	list-style-type: square;
+}
+.minor li {
+	list-style-type: none;
+}
